@@ -6,10 +6,13 @@
   "author": "Edson Luiz Ribeiro Rodrigues <edsonrodrigues@icloud.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "dotenv": "^8.2.0",
     "graphql-yoga": "^1.18.3"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
     "nodemon": "^2.0.3"
   },
   "scripts": {
