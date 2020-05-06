@@ -1,0 +1,6 @@
+endpoint: https://us1.prisma.sh/edson-luiz-ribeiro-rodrigues-2b8a0a/prismagram/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
